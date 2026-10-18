@@ -1,0 +1,10 @@
+﻿sample_id,language_label,condition,reference_text,predicted_text,detected_language,wer,cer,inference_latency_seconds
+hindi_audio,Hindi,clean_16khz,रामू! क्या तुमने कल नई फिल्म देखी? कैसी है?,"Raamu, Gya tum ne köl ney film de ki, Gya si hai?",hi,1.3333333333333333,0.9767441860465116,1.0559
+hindi_audio,Hindi,noise_20db,रामू! क्या तुमने कल नई फिल्म देखी? कैसी है?,"Raamu, What do you think of the new film? What is it?",hi,1.3333333333333333,1.0,3.6109
+hindi_audio,Hindi,noise_10db,रामू! क्या तुमने कल नई फिल्म देखी? कैसी है?,"Raamu, can you see a new film tomorrow? What is it?",hi,1.2222222222222223,1.0,3.4151
+hyderabadi,Telugu-Hindi,clean_16khz,"Hau Ramesh, nenu chusanu! पिक्चर एकदम किराँक undi!","Hauram Esh, Nenu Tsusanu, Pixar Idam Kira Kundi",ne,1.0,0.52,1.2351
+hyderabadi,Telugu-Hindi,noise_20db,"Hau Ramesh, nenu chusanu! पिक्चर एकदम किराँक undi!","Hauramesh, nenu tsusanu, pixar hindam kira kundi.",ne,0.875,0.48,5.1598
+hyderabadi,Telugu-Hindi,noise_10db,"Hau Ramesh, nenu chusanu! पिक्चर एकदम किराँक undi!","Hawramesh, Nenudu Sanu, Pichar Idham Kiran Kundi.",te,1.0,0.58,3.7673
+telugu_audio,Telugu,clean_16khz,రాము! నిన్న కొత్త సినిమా చూశావా? ఎలా ఉంది?,"رாمு, நின் நான் கொட்டா சிரமாதிும் செய்வா, யாலாம் அண்டி",te,1.1428571428571428,1.1428571428571428,1.5588
+telugu_audio,Telugu,noise_20db,రాము! నిన్న కొత్త సినిమా చూశావా? ఎలా ఉంది?,"Raamu, nginda kota si numa tiwu siya va, yalawndi",te,1.2857142857142858,1.0476190476190477,3.7392
+telugu_audio,Telugu,noise_10db,రాము! నిన్న కొత్త సినిమా చూశావా? ఎలా ఉంది?,رعمل لنا قطة سنواته سواء يلعن دي,ar,1.0,0.8809523809523809,1.4003

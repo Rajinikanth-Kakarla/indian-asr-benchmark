@@ -16,3 +16,9 @@ __pycache__/
 # Editor settings
 .vscode/
 .DS_Store
+
+# Generated audio for telephony experiments
+data/processed/
+
+# Temporary diagnostic script
+check_manifest_encoding.py

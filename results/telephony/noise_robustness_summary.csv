@@ -1,0 +1,4 @@
+﻿condition,sample_count,mean_wer,mean_cer,mean_latency_seconds
+clean_16khz,3,1.1587,0.8799,1.2833
+noise_10db,3,1.0741,0.8203,2.8609
+noise_20db,3,1.1647,0.8425,4.17

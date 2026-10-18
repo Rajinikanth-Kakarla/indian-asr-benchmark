@@ -1,0 +1,7 @@
+﻿sample_id,condition,target_snr_db,measured_snr_db
+hindi_audio,noise_20db,20,20.0
+hindi_audio,noise_10db,10,10.0
+hyderabadi,noise_20db,20,20.0
+hyderabadi,noise_10db,10,10.0
+telugu_audio,noise_20db,20,20.0
+telugu_audio,noise_10db,10,10.0

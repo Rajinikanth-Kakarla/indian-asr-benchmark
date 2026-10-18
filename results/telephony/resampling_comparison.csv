@@ -1,0 +1,10 @@
+﻿sample_id,language_label,condition,audio_path,sample_rate_hz,detected_language,reference_text,predicted_text,wer,cer,inference_latency_seconds
+hindi_audio,Hindi,original_44100hz,data\audio\hindi_audio.mp3,44100,hi,रामू! क्या तुमने कल नई फिल्म देखी? कैसी है?,"Raamu, Gya tum ne köl ney film de ki, Gya si hai?",1.3333333333333333,0.9767441860465116,1.1987
+hindi_audio,Hindi,resampled_16000hz,data\processed\16000hz\hindi_audio.wav,16000,hi,रामू! क्या तुमने कल नई फिल्म देखी? कैसी है?,"Raamu, Gya tum ne köl ney film de ki, Gya si hai?",1.3333333333333333,0.9767441860465116,1.0541
+hindi_audio,Hindi,resampled_8000hz,data\processed\8000hz\hindi_audio.wav,8000,hi,रामू! क्या तुमने कल नई फिल्म देखी? कैसी है?,"Raamu, can you see a new film tomorrow? What is it?",1.2222222222222223,1.0,1.0241
+hyderabadi,Telugu-Hindi,original_44100hz,data\audio\hyderabadi.mp3,44100,ne,"Hau Ramesh, nenu chusanu! पिक्चर एकदम किराँक undi!","Hauram Esh, Nenu Tsusanu, Pixar Idam Kira Kundi",1.0,0.52,1.1037
+hyderabadi,Telugu-Hindi,resampled_16000hz,data\processed\16000hz\hyderabadi.wav,16000,ne,"Hau Ramesh, nenu chusanu! पिक्चर एकदम किराँक undi!","Hauram Esh, Nenu Tsusanu, Pixar Idam Kira Kundi",1.0,0.52,1.0167
+hyderabadi,Telugu-Hindi,resampled_8000hz,data\processed\8000hz\hyderabadi.wav,8000,la,"Hau Ramesh, nenu chusanu! पिक्चर एकदम किराँक undi!","Hauram esh, nenu tzu sanu, pixar edam kira kundi.",1.0,0.5,3.2001
+telugu_audio,Telugu,original_44100hz,data\audio\telugu_audio.mp3,44100,te,రాము! నిన్న కొత్త సినిమా చూశావా? ఎలా ఉంది?,"رாمு, நீன் நான் கோட்டா சிருமாற்றிும் செய்வா, யாலாம் உண்டி.",1.1428571428571428,1.2380952380952381,1.2683
+telugu_audio,Telugu,resampled_16000hz,data\processed\16000hz\telugu_audio.wav,16000,te,రాము! నిన్న కొత్త సినిమా చూశావా? ఎలా ఉంది?,"رாمு, நின் நான் கொட்டா சிரமாதிும் செய்வா, யாலாம் அண்டி",1.1428571428571428,1.1428571428571428,1.4051
+telugu_audio,Telugu,resampled_8000hz,data\processed\8000hz\telugu_audio.wav,8000,te,రాము! నిన్న కొత్త సినిమా చూశావా? ఎలా ఉంది?,"...para, な to see you in the next video ...yelow 1 day",1.7142857142857142,1.1666666666666667,9.5511
