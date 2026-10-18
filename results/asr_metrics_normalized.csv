@@ -1,0 +1,4 @@
+﻿sample_id,language,normalized_reference,normalized_prediction,wer_normalized,cer_normalized
+hindi_audio,Hindi,रामू क्या तुमने कल नई फिल्म देखी कैसी है,raamu gya tum ne köl ney film de ki gya si hai,1.3333333333333333,1.0
+hyderabadi,Telugu-Hindi,hau ramesh nenu chusanu पिक्चर एकदम किराँक undi,hauram esh nenu tsusanu pixar idam kira kundi,0.875,0.44680851063829785
+telugu_audio,Telugu,రాము నిన్న కొత్త సినిమా చూశావా ఎలా ఉంది,رாمு நீன் நான் கோட்டா சிருமாற்றிும் செய்வா யாலாம் உண்டி,1.1428571428571428,1.2564102564102564

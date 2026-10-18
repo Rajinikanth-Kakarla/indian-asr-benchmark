@@ -1,0 +1,4 @@
+sample_id,audio_path,language,reference_text
+hindi_audio,data/audio/hindi_audio.mp3,Hindi,रामू! क्या तुमने कल नई फिल्म देखी? कैसी है?
+hyderabadi,data/audio/hyderabadi.mp3,Telugu-Hindi,"Hau Ramesh, nenu chusanu! पिक्चर एकदम किराँक undi!"
+telugu_audio,data/audio/telugu_audio.mp3,Telugu,రాము! నిన్న కొత్త సినిమా చూశావా? ఎలా ఉంది?

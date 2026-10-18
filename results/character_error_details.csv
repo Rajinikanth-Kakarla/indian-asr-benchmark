@@ -1,0 +1,4 @@
+﻿sample_id,language,character_substitutions,character_deletions,character_insertions,cer
+hindi_audio,Hindi,34,0,6,1.0
+hyderabadi,Telugu-Hindi,17,3,1,0.44680851063829785
+telugu_audio,Telugu,33,0,16,1.2564102564102564

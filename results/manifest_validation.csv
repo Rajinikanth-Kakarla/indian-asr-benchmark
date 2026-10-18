@@ -1,0 +1,4 @@
+sample_id,audio_path,language,duration_seconds,status,errors
+hindi_audio,data/audio/hindi_audio.mp3,Hindi,4.935941043083901,PASS,
+hyderabadi,data/audio/hyderabadi.mp3,Telugu-Hindi,5.590498866213152,PASS,
+telugu_audio,data/audio/telugu_audio.mp3,Telugu,4.700340136054422,PASS,

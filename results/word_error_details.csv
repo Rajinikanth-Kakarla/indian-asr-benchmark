@@ -1,0 +1,4 @@
+﻿sample_id,language,reference_text,predicted_text,substitutions,deletions,insertions,wer
+hindi_audio,Hindi,रामू क्या तुमने कल नई फिल्म देखी कैसी है,raamu gya tum ne köl ney film de ki gya si hai,9,0,3,1.3333333333333333
+hyderabadi,Telugu-Hindi,hau ramesh nenu chusanu पिक्चर एकदम किराँक undi,hauram esh nenu tsusanu pixar idam kira kundi,7,0,0,0.875
+telugu_audio,Telugu,రాము నిన్న కొత్త సినిమా చూశావా ఎలా ఉంది,رாمு நீன் நான் கோட்டா சிருமாற்றிும் செய்வா யாலாம் உண்டி,7,0,1,1.1428571428571428

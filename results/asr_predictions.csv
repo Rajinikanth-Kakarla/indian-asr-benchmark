@@ -1,0 +1,4 @@
+﻿sample_id,language,reference_text,predicted_text,detected_language,status,error
+hindi_audio,Hindi,रामू! क्या तुमने कल नई फिल्म देखी? कैसी है?,"Raamu, Gya tum ne köl ney film de ki, Gya si hai?",hi,success,
+hyderabadi,Telugu-Hindi,"Hau Ramesh, nenu chusanu! पिक्चर एकदम किराँक undi!","Hauram Esh, Nenu Tsusanu, Pixar Idam Kira Kundi",ne,success,
+telugu_audio,Telugu,రాము! నిన్న కొత్త సినిమా చూశావా? ఎలా ఉంది?,"رாمு, நீன் நான் கோட்டா சிருமாற்றிும் செய்வா, யாலாம் உண்டி.",te,success,
