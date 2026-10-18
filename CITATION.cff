@@ -1,0 +1,13 @@
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Indian ASR Benchmark"
+type: software
+authors:
+  - family-names: Kakarla
+    given-names: Rajinikanth
+version: 0.1.0
+date-released: "2026-10-18"
+url: "https://github.com/Rajinikanth-Kakarla/indian-asr-benchmark"
+license: MIT
+abstract: "A reproducible evaluation pipeline for pretrained speech recognition systems on Hindi, Telugu, and Telugu-Hindi code-switched audio."
