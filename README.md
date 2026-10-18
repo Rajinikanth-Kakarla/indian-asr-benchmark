@@ -171,3 +171,54 @@ python -m pytest -v
 ### Limitations and Future Work
 
 - The current dataset contains only three samples and is intended for pipeline validation, not generalizable
+
+
+
+## Project 3: Multi-Model ASR Benchmark
+
+### Objective
+Compare Faster-Whisper and AI4Bharat IndicConformer on Hindi, Telugu, and a Telugu-Hindi code-switched audio sample.
+
+### Models
+- Faster-Whisper base: CPU inference using int8 computation.
+- AI4Bharat IndicConformer 600M: CPU inference using the model's CTC transcription interface.
+
+### Evaluation
+- Word Error Rate (WER)
+- Character Error Rate (CER)
+- Inference latency
+- Per-language performance summaries
+- Unicode normalization and script-difference analysis
+
+### Run the benchmark
+
+```bash
+python src/model_benchmark/run_benchmark.py
+python src/model_benchmark/summarize_by_language.py
+python src/model_benchmark/evaluate_codeswitch.py
+python -m pytest -v
+```
+
+### Generated reports
+- `results/model_benchmark/predictions_and_metrics.csv`
+- `results/model_benchmark/model_summary.csv`
+- `results/model_benchmark/language_summary.csv`
+- `results/model_benchmark/codeswitch_analysis.csv`
+
+### Initial Results
+
+The initial smoke test evaluated three audio samples, one each for Hindi, Telugu, and Telugu-Hindi code-switching.
+
+| Model | Mean normalized WER | Mean normalized CER | Mean latency |
+|---|---:|---:|---:|
+| Faster-Whisper base | 103.10% | 72.80% | 4.23 s |
+| IndicConformer 600M | 49.18% | 27.07% | 0.82 s |
+
+These results are preliminary and are not representative of general model performance.
+
+### Limitations
+- Only three samples were evaluated.
+- The code-switched reference contains Latin and Devanagari text, while model predictions use different scripts.
+- WER and CER are affected by script differences and do not establish semantic equivalence.
+- Latency measurements depend on the local CPU, model loading, audio duration, and runtime conditions.
+- A larger, licensed, manually verified dataset is required for reliable conclusions.

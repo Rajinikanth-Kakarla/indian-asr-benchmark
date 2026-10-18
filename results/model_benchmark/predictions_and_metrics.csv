@@ -1,0 +1,7 @@
+sample_id,language,model,reference,prediction,normalized_wer,normalized_cer,latency_seconds,status
+hindi_audio,Hindi,Faster-Whisper base,रामू! क्या तुमने कल नई फिल्म देखी? कैसी है?,رامو کیا تم نے کل نی فوم دیکھی کیا سی ہے,1.0,0.8823529411764706,1.1301671999972314,success
+hindi_audio,Hindi,IndicConformer 600M,रामू! क्या तुमने कल नई फिल्म देखी? कैसी है?,रामू क्या तुमने कल नई फिल्म देखी कैसी है,0.0,0.0,1.3061785000027157,success
+hyderabadi,Telugu-Hindi,Faster-Whisper base,"Hau Ramesh, nenu chusanu! पिक्चर एकदम किराँक undi!","Hauram Esh, Nenu Tsusano, Pixar 1-Dom Kira Kundi",0.9166666666666666,0.4782608695652174,9.759151200007182,success
+hyderabadi,Telugu-Hindi,IndicConformer 600M,"Hau Ramesh, nenu chusanu! पिक्चर एकदम किराँक undi!",హౌ రమేష్్ నేను చూశాను పిక్చర్ ఎక్దమ్ కిరాకుంది,1.4166666666666667,0.782608695652174,0.6234861999982968,success
+telugu_audio,Telugu,Faster-Whisper base,రాము! నిన్న కొత్త సినిమా చూశావా? ఎలా ఉంది?,"رாمு, நீங்கள் கொட்டத்தை சிரமாகச் செய்வா, யாலாம் உண்டு...",1.1764705882352942,0.8235294117647058,1.8041280999896117,success
+telugu_audio,Telugu,IndicConformer 600M,రాము! నిన్న కొత్త సినిమా చూశావా? ఎలా ఉంది?,రాము నిన్న కొత్త సినిమా చూసావా ఎలా ఉంది,0.058823529411764705,0.029411764705882353,0.5249231000198051,success
